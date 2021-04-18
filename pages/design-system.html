@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design System</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel&family=Halant&family=Overpass+Mono&family=Overpass:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/design-system.css">
+</head>
+
+<body>
+  <h1>Design System made by Paweł Rugała</h1>
+  <section class="grid">
+    <h2>Fonts</h2>
+    <div class="flex">
+      <h3>font size - title &lth1&gt</h3>
+      <h3>font-family: 'Cinzel'</h3>
+    </div>
+    <div class="flex">
+      <p>big screen</p>
+      <h1 class="title-big_screen">Title text</h1>
+    </div>
+    <div class="flex">
+      <p>medium screen</p>
+      <h1 class="title-medium_screen">Title text</h1>
+    </div>
+    <div class="flex">
+      <p>small screen</p>
+      <h1 class="title-small_screen">Title text</h1>
+    </div>
+  </section>
+  <section class="grid">
+    <div class="flex">
+      <h3>font size - nav link &ltli&gt</h3>
+      <h3>font-family: 'Overpass'</h3>
+    </div>
+    <div class="flex">
+      <p>all screen sizes</p>
+      <li class="nav-item">Title text</li>
+    </div>
+  </section>
+  <section class="grid">
+    <div class="flex">
+      <h3>font size - heading &lth3-6&gt</h3>
+      <h3>font-family: 'Halant'</h3>
+    </div>
+    <div class="flex">
+      <p>big screen</p>
+      <h2 class="big-heading_3">Heading 2 text</h2>
+    </div>
+    <div class="flex">
+      <p>remaining screens</p>
+      <h2 class="rest-heading_3">Heading 2 text</h2>
+    </div>
+  </section>
+  <section class="grid">
+    <div class="flex">
+      <h3>paragraphs</h3>
+      <h3>font-family: 'Halant'</h3>
+    </div>
+    <div class="flex">
+      <p>big screen</p>
+      <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur explicabo laudantium, quod
+        consequuntur cum omnis. Porro asperiores quae debitis optio expedita voluptatem eius, ab, doloribus
+        consequuntur, harum dolore dolores!</p>
+    </div>
+    <div class="flex">
+      <p>remaining screens</p>
+      <p class="para-rest">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa pariatur explicabo laudantium,
+        quod
+        consequuntur cum omnis. Porro asperiores quae debitis optio expedita voluptatem eius, ab, doloribus
+        consequuntur,
+        harum dolore dolores!</p>
+    </div>
+  </section>
+  <section>
+    <h2>Colors</h2>
+    <div class="flex">
+      <div id="color1" class="color"></div>
+      <div id="color2" class="color"></div>
+      <div id="color3" class="color"></div>
+      <div id="color4" class="color"></div>
+      <div id="color5" class="color"></div>
+    </div>
+  </section>
+  <section class="grid">
+    <h2>Buttons</h2>
+    <button class="btn">Press the button</button>
+    <button class="btn-hover">Hover effect</button>
+  </section>
+  <section class="grid">
+    <h2>Input & Label element</h2>
+    <div class="form">
+      <label class="label">Name</label>
+      <input type="text" class="input">
+    </div>
+    <div class="form">
+      <label class="label">E-mail</label>
+      <input type="email" name="input" class="input">
+    </div>
+    <div class="form">
+      <label class="label">Message</label>
+      <textarea class="input">Leave a message</textarea>
+    </div>
+  </section>
+  <section class="grid">
+    <h2>Links</h2>
+    <a class="link">
+      Link to page
+      <svg width="181" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path stroke="#DB8300" d="M0 10.5h181M180.646 10.354l-10-10" />
+      </svg>
+    </a>
+    <a class="link-hover">
+      Hover effect
+      <svg width="181" height="11" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path stroke="#DB8300" d="M0 10.5h181M180.646 10.354l-10-10" />
+      </svg>
+    </a>
+  </section>
+  <section class="grid">
+    <h2>Spacing</h2>
+    <h3>Section element</h3>
+    <section class="section-big_screen">
+      <p>Big screen:</p>
+      <p>9rem top & bottom padding</p>
+    </section>
+    <section class="section-medium_screen">
+      <p>Medium screen:</p>
+      <p>6.8rem top & bottom padding</p>
+    </section>
+    <section class="section-small_screen">
+      <p>Small screen:</p>
+      <p>2.8rem top & bottom padding</p>
+    </section>
+  </section>
+  <section class="grid">
+    <h2>Grid layout</h2>
+    <p>Small screen Layout</p>
+    <div class="grid-mobile">
+      <div class="box-mobile"></div>
+      <div class="box-mobile"></div>
+      <div class="box-mobile"></div>
+    </div>
+    <p>Medium screen layout 1</p>
+    <div class="grid-tablet">
+      <div class="box-tablet"></div>
+      <div class="box-tablet"></div>
+      <div class="box-tablet"></div>
+      <div class="box-tablet"></div>
+      <div class="box-tablet"></div>
+      <div class="box-tablet"></div>
+    </div>
+    <p>Medium screen layout 2</p>
+    <div class="grid-tablet2">
+      <div class="box-tablet2"></div>
+      <div class="box-tablet2"></div>
+      <div class="box-tablet2"></div>
+      <div class="box-tablet2"></div>
+    </div>
+    <p>Big screen layout</p>
+    <div class="grid-big">
+      <div class="box-big grid-small">
+        <div class="small-box"></div>
+        <div class="small-box"></div>
+      </div>
+      <div class="box-big"></div>
+      <div class="box-big grid-small">
+        <div class="small-box"></div>
+        <div class="small-box"></div>
+      </div>
+      <div class="box-big"></div>
+      <div class="box-big grid-small">
+        <div class="small-box"></div>
+        <div class="small-box"></div>
+      </div>
+      <div class="box-big"></div>
+    </div>
+    <p>Posts layout all screen</p>
+    <div class="grid-big2">
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+      <div class="box-big"></div>
+    </div>
+  </section>
+</body>
+
+</html>
