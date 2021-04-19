@@ -5,6 +5,21 @@
 - font-family: 'Overpass', sans-serif; -> Nav link h2
 - font-family: 'Overpass Mono', monospace; -> design system
 
+# Grid system
+
+Initially I had 4 different grid layouts but I decided to use only 1 grid and use grid-area to definate the space needed for each div
+
+- 6 col layout didn't work
+- 8 col layout didn't work
+- 9 col layout didn't work
+- <b>12 col layout did work. It's easily divided by 6, 4, 3, 2 </b>
+
+Ok I have 1 main grid and I create few more inside elements...
+
+# Images
+
+I still don't get it how to make img responsive.. I have to use background-image property to achieve this.
+
 # Udacity Git Commit Message Style Guide
 
 ## Commit Messages
@@ -33,7 +48,9 @@ style: Formatting, missing semi colons, etc; no code change
 refactor: Refactoring production code
 test: Adding tests, refactoring test; no production code change
 chore: Updating build tasks, package manager configs, etc; no production code change
-The Subject
+
+## The Subject
+
 Subjects should be no greater than 50 characters, should begin with a capital letter and do not end with a period.
 
 Use an imperative tone to describe what a commit does, rather than what it did. For example, use change; not changed or changes.
