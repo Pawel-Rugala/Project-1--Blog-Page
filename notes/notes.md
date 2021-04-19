@@ -1,16 +1,17 @@
-
 # Google fonts
-font-family: 'Cinzel', serif;  -> Heading
-font-family: 'Halant', serif;  -> h3
-font-family: 'Overpass', sans-serif; -> Nav link h2
-font-family: 'Overpass Mono', monospace; -> design system
 
+- font-family: 'Cinzel', serif; -> Heading
+- font-family: 'Halant', serif; -> h3-h6
+- font-family: 'Overpass', sans-serif; -> Nav link h2
+- font-family: 'Overpass Mono', monospace; -> design system
 
 # Udacity Git Commit Message Style Guide
 
 ## Commit Messages
+
 Message Structure
 A commit messages consists of three distinct parts separated by a blank line: the title, an optional body and an optional footer. The layout looks like this:
+
 ```
 type: Subject
 
@@ -22,6 +23,7 @@ footer
 The title consists of the type of the message and subject.
 
 ## The Type
+
 The type is contained within the title and can be one of these types:
 
 feat: A new feature
@@ -37,14 +39,17 @@ Subjects should be no greater than 50 characters, should begin with a capital le
 Use an imperative tone to describe what a commit does, rather than what it did. For example, use change; not changed or changes.
 
 ## The Body
+
 Not all commits are complex enough to warrant a body, therefore it is optional and only used when a commit requires a bit of explanation and context. Use the body to explain the what and why of a commit, not the how.
 
 When writing a body, the blank line between the title and the body is required and you should limit the length of each line to no more than 72 characters.
 
 ## The Footer
+
 The footer is optional and is used to reference issue tracker IDs.
 
 ## Example Commit Message
+
 ```
 feat: Summarize changes in around 50 characters or less
 
