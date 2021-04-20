@@ -9,14 +9,14 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel&family=Halant&family=Overpass+Mono&family=Overpass:wght@300;400;700&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet" href="../index2.css">
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/pages/contact.css">
   </head>
   <body>
     <header class="padding-1_25 grid-2_col">
       <h1 class="title">Front-end Case</h1>
       <nav class="nav">
-        <a href="../index2.html" class="nav-item">
+        <a href="../index.html" class="nav-item">
           <li>Home</li>
         </a>
         <a href="./blog-posts.html" class="nav-item">
@@ -53,6 +53,20 @@
             logo"></a>
       </div>
     </section>
+    <aside class="padding-1_25">
+      <h2 class="title2">Contact me</h2>
+      <form action="" class="form">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" name="name" id="name" placeholder="Your name"
+          class="form-input">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" name="email" id="email" class="form-input">
+        <label for="msg" class="form-label">Your message</label>
+        <textarea name="msg" id="msg" cols="30" rows="10"
+          placeholder="Write your message" class="form-txt"></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </aside>
     <footer class="footer padding-1_25">
       <p class="txt">Designed and developed by Paweł Rugała</p>
       <p class="txt">Made possible by Udacity</p>

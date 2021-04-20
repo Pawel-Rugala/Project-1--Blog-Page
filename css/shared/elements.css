@@ -1,0 +1,115 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+.padding-1_25 {
+  padding: 1rem 2.5rem;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.nav-item {
+  color: black;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-family: 'Overpass', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.nav-item:hover {
+  color: #db8300;
+}
+
+.link:hover {
+  font-weight: 700;
+}
+
+.form {
+  margin-top: 2.5rem;
+}
+
+.form-label {
+  width: 100%;
+  display: block;
+  font-family: 'Halant', serif;
+  font-size: 1.6rem;
+  color: #737373;
+}
+
+.form-input {
+  width: 100%;
+  display: block;
+  margin-bottom: 2.5rem;
+  padding: 0.7rem 0 0.3rem 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Halant', serif;
+  font-size: 1.8rem;
+}
+
+.form-txt {
+  width: 100%;
+  display: block;
+  margin-bottom: 2.5rem;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: 'Halant', serif;
+  font-size: 1.8rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3rem 2.5rem;
+}
+
+.btn {
+  border-radius: 15px;
+  border: none;
+  background-color: #db8300;
+  padding: 1rem 2rem;
+  max-height: 5rem;
+  min-width: 10rem;
+  color: white;
+  cursor: pointer;
+  font-family: 'Halant', serif;
+  font-size: 1.6rem;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+#design-system {
+  color: white;
+  text-decoration: none;
+}
+
+#design-system:hover {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 700px) {
+  .nav {
+    justify-content: flex-end;
+  }
+
+  .footer {
+    justify-content: space-between;
+  }
+}

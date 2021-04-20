@@ -1,0 +1,34 @@
+@media screen and (min-width: 1000px) {
+  .hot .grid-card_img {
+    grid-area: 2/1/3/5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  .hot .grid-card_date {
+    grid-area: 1/1/2/3;
+    display: none;
+  }
+
+  .hot .grid-card_author {
+    grid-area: 1/1/2/5;
+    text-align: right;
+    display: none;
+  }
+
+  .hot .grid-card_title {
+    grid-area: 3/1/4/5;
+    margin: 1rem 0;
+    padding: 0;
+  }
+
+  .hot .grid-card_btn {
+    grid-area: 4/1/5/3;
+  }
+
+  .hot .grid-card_desc {
+    display: none;
+  }
+}
