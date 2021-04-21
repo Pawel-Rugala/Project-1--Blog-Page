@@ -50,8 +50,12 @@ body {
   font-family: 'Halant', serif;
   font-size: 1.6rem;
   letter-spacing: 0.25rem;
-  border-left: 1px solid #db8300;
+  border-left: 1px solid #0051a8;
   padding-left: 2rem;
+}
+
+#Pawel {
+  color: #0051a8;
 }
 
 @media screen and (min-width: 700px) {

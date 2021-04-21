@@ -23,7 +23,7 @@ body {
 }
 
 .nav-item:hover {
-  color: #db8300;
+  color: #0051a8;
 }
 
 .link:hover {
@@ -76,7 +76,7 @@ body {
 .btn {
   border-radius: 15px;
   border: none;
-  background-color: #db8300;
+  background-color: #0051a8;
   padding: 1rem 2rem;
   max-height: 5rem;
   min-width: 10rem;

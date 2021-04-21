@@ -34,14 +34,14 @@
 }
 
 .top .txt:hover {
-  color: #db8300;
+  color: #0051a8;
 }
 
 .overview {
-  color: #db8300;
+  color: #0051a8;
   margin-top: 2rem;
-  border-top: 1px solid #db8300;
-  border-bottom: 1px solid #db8300;
+  border-top: 1px solid #0051a8;
+  border-bottom: 1px solid #0051a8;
 }
 
 .overview-list {
@@ -61,7 +61,7 @@
 }
 
 .link {
-  color: #db8300;
+  color: #0051a8;
   display: block;
   margin: 0 auto;
   text-decoration: none;
@@ -103,7 +103,7 @@
 
 .social-link {
   text-decoration: none;
-  color: #db8300;
+  color: #0051a8;
   font-size: 2rem;
 }
 

@@ -20,7 +20,7 @@ li {
 }
 
 .nav-item:hover {
-  color: #db8300;
+  color: #0051a8;
 }
 
 .form {
@@ -59,7 +59,7 @@ li {
 .btn {
   border-radius: 15px;
   border: none;
-  background-color: #db8300;
+  background-color: #0051a8;
   padding: 1rem 2rem;
   max-height: 5rem;
   min-width: 10rem;
@@ -225,7 +225,7 @@ li {
 .grid-2_col-alt .link {
   display: flex;
   flex-direction: column;
-  color: #db8300;
+  color: #0051a8;
   text-decoration: none;
   margin: 5rem 0 2.5rem 60%;
 }
